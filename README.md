@@ -1,6 +1,3 @@
-Latin Practice
-##
-
 When finished, will support practicing conjugating nouns and verbs. 
 
 - [x] Nouns 1st, 2nd and 3rd declension. 
