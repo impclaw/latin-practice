@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:padding="8sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Noun Conjugation"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+        <CheckBox
+            android:id="@+id/noun_1st_decl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1st Declension (Puella)"/>
+        <CheckBox
+            android:id="@+id/noun_2nd_decl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2nd Declension (Servus, Bellum)"/>
+        <CheckBox
+            android:id="@+id/noun_3rd_decl_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3rd Declension (Rēx, Iītus)"/>
+        <CheckBox
+            android:id="@+id/noun_3rd_decl_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3rd Declension (Nāvis, Mare)"/>
+        <CheckBox
+            android:id="@+id/noun_3rd_decl_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3rd Declension (Urbs, Animal)"/>
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/noun_singular"
+                android:checked="true"
+                android:text="Singular"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/noun_plural"
+                android:text="Plural"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/noun_both"
+                android:text="Both"/>
+        </RadioGroup>
+        <Button
+            android:id="@+id/noun_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start Noun Practice">
+        </Button>
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
